@@ -1,37 +1,31 @@
 
 public class practicedsa1{
-    public static void binarySearch(int arr[],int key){
+    public static void ra(int arr[]){
+       int start =0;
+       int end =arr.length-1;
+       while(start<=end){
+        int temp=arr[start];
+         arr[start] =arr[end];
+         arr[end]=temp;
+         start++;
+         end--;
+       } 
+        }
+    
        
-        int start =0;
-        int end=arr.length-1;
-       
-  
-        while(start<=end){
-            int mid=start +((end-start)/2);
-            if(arr[mid]>key ){
-                end=mid-1;
-            }else if (arr[mid]<key){
-                start=mid+1;
-
-            }else if (arr[mid]==key){
-                System.err.println(mid
-                );
-                return;
-            }else{
-                System.err.println("not found");
-                return;
-            }
-        } System.err.println("not found");
-       
-    }
+    
     public static void main(String[] args) {
-        int arr[]={2,3,4,5,6};
-        binarySearch(arr,6);
+        int arr[]={2,3,4,5,6,7};
+        ra(arr);
+        for (int i = 0; i <= arr.length-1; i++) {
+            System.err.print(arr[i]+" ");
+            
+        }
+       
        
     }
 }
-//binary seearch
-//reverse an arrya
+
 //pairs in an array
 //subarrays
 //max sum 2
