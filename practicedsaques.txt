@@ -1,0 +1,109 @@
+1. Arrays
+Maximum Subarray Sum (Prefix Sum).  *
+kadan *
+Trapping Rainwater
+Buy and Sell Stocks
+
+2. Sorting Algorithms
+
+Bubble Sort
+
+Selection Sort
+
+Insertion Sort
+
+Counting Sort
+
+3. 2D Arrays (Not Done Yet)
+
+2D Array basics / problems
+
+4. Bitwise Operations
+
+Check Odd or Even
+
+Get i-th Bit
+
+Clear i-th Bit
+
+Clear Last i Bits
+
+Set i-th Bit
+
+Check if Number is Power of 2
+
+Count Set Bits
+
+5. Recursion
+
+Print numbers from n to 1
+
+Print numbers in increasing order (1 to n)
+
+Factorial of n
+
+n-th Fibonacci Number
+
+Check if Array is Sorted
+
+First Occurrence of Element
+
+Last Occurrence of Element
+
+Power Function 
+𝑥
+𝑛
+x
+n
+
+Optimized Power 
+𝑥
+𝑛
+x
+n
+ (Divide by 2 method)
+
+Tiling Problem
+
+Remove Duplicates in a String
+
+Friends Pairing Problem
+
+Binary String Problem
+
+
+6. Divide and Conquer
+
+Merge Sort
+
+Quick Sort
+
+Pivot Problem (Partition logic in Quick Sort)
+
+7. Backtracking
+
+Array Backtracking (0–5 numbers then subtract 2 from all)
+
+Permutations of String "abc"
+
+Subsets / Substrings of "abc"
+
+N-Queens Problem (Print Solution for 4×4)
+
+Number of Ways in N-Queens
+
+N-Queens for 8×8
+
+Sudoku Solver
+
+Grid Ways Problem
+
+8. Strings
+
+Check Palindrome (like "wmeenesennn" type problem)
+
+Find Largest String
+
+String Compression
+
+Convert First Letter to Uppercase

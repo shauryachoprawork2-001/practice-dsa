@@ -1,20 +1,19 @@
-public class subarrays {
-    public static void psb(int array[]){
-        for(int i=0;i<array.length;i++){
-            int start=i;
+public class subarrays{
+    public static void sb(int array[]){
+        int count=0;
+        for(int i =0;i<array.length;i++){
             for(int j=i;j<array.length;j++){
-                int second=j;
-                for(int k=start;k<=second;k++){
-                    System.out.print(array[k]);
-            }System.out.println();
-
+                
+                for(int k =i;k<=j;k++){
+                    System.err.print(array[k]);
+                    
+                }count++;
+                System.err.println(count );
             }
         }
     }
-
     public static void main(String[] args) {
-        int array[]={1,2,3,4,5};
-        psb(array);
-        
+        int arr[]={1,2,3};
+        sb(arr);
     }
 }
