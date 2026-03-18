@@ -1,7 +1,7 @@
 1. Arrays
 Maximum Subarray Sum (Prefix Sum).  *
 kadan *
-Trapping Rainwater
+Trapping Rainwater *
 Buy and Sell Stocks
 
 2. Sorting Algorithms
@@ -100,9 +100,10 @@ Grid Ways Problem
 
 8. Strings
 
-Check Palindrome (like "wmeenesennn" type problem)
+Check Palindrome *
+(like "wmeenesennn" type problem)*
 
-Find Largest String
+Find Largest String *
 
 String Compression
 
