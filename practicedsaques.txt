@@ -82,7 +82,7 @@ Pivot Problem (Partition logic in Quick Sort)
 
 7. Backtracking
 
-Array Backtracking (0–5 numbers then subtract 2 from all)
+Array Backtracking (0-5 numbers then subtract 2 from all)
 
 Permutations of String "abc"
 
@@ -105,6 +105,6 @@ Check Palindrome *
 
 Find Largest String *
 
-String Compression
+String Compression 
 
 Convert First Letter to Uppercase
