@@ -1,13 +1,13 @@
-public class descending {
+public class ascending {
     public static void des(int n){
         //base case
         if(n==1){
             System.out.println(n);
             return;
         }else{
-            System.out.println(n);
-            des(n-1);
            
+            des(n-1);
+            System.out.println(n);
         }
     }
 
@@ -16,5 +16,3 @@ public class descending {
         des(n);
     }
 }
-
-//to get descending order
