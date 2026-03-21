@@ -3,7 +3,7 @@ public class descending {
         //base case
         if(n==1){
             System.out.println(n);
-            return;
+           
         }else{
             System.out.println(n);
             des(n-1);

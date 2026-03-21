@@ -36,15 +36,13 @@ Count Set Bits
 
 5. Recursion
 
-Print numbers from n to 1
 
-Print numbers in increasing order (1 to n)
 
-Factorial of n
+Factorial of n *
 
-n-th Fibonacci Number
 
-Check if Array is Sorted
+
+Check if Array is Sorted *
 
 First Occurrence of Element
 
