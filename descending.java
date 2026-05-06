@@ -1,13 +1,13 @@
 public class descending {
-    public static void des(int n){
+    public static void des(int m){
         //base case
-        if(n==1){
-            System.out.println(n);
+        if(m==1){
+            System.out.println(m);
            
         }else{
-            System.out.println(n);
-            des(n-1);
-           
+            System.out.println(m);
+            des(m-1);
+           //this is very important
         }
     }
 

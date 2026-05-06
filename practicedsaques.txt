@@ -44,9 +44,8 @@ Factorial of n *
 
 Check if Array is Sorted *
 
-First Occurrence of Element
 
-Last Occurrence of Element
+Last Occurrence of Element ****
 
 Power Function 
 𝑥
@@ -106,3 +105,19 @@ Find Largest String *
 String Compression 
 
 Convert First Letter to Uppercase
+
+array list
+Sortingreverse
+Maximum
+multidimensional
+make a 2d list in which first row is table of 1 second is table of 2 third is 4
+
+
+container with most water **
+pair sum 1
+
+pair sum 2
+
+
+linked list 
+making 
