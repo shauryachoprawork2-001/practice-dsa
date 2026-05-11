@@ -33,7 +33,7 @@ public class inorder {
 
             }inorder(root.left);
             System.err.println(root.data+ " ");
-            inorder(root.left);
+            inorder(root.right);
         }
 
     }

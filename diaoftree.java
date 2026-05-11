@@ -26,7 +26,7 @@ public class diaoftree {
         }
         int Leftdiam =dia(root.left);
         int lefth = height(root.left);
-        int rightdiam = dia(root.left);
+        int rightdiam = dia(root.right);
         int righth = height(root.right);
 
         int selfdiam = lefth+righth+1;
