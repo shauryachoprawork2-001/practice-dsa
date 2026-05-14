@@ -41,7 +41,7 @@ public class topview{
                  
                  }
             }
-            if(!map.containsKey(curr.hd)){
+            if(!map.containsKey(curr.hd)){ //contain key check koi bhi ki karti hai ya nhi
                 map.put(curr.hd,curr.node);
             }
             if(curr.node.left != null) {
@@ -53,6 +53,9 @@ public class topview{
                 q.add(new Info(curr.node.right, curr.hd + 1));
                 max = Math.max(max, curr.hd + 1);
             }
+        }
+        for(int i=min;i<=max;i++){
+            System.err.print(map.get(i));
         }
     }
     public static void main(String[] args) {
