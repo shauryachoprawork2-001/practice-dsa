@@ -1,0 +1,23 @@
+left subtree is always lesss than root
+right always bigger thant root
+left and right are bst no duplicates
+
+
+inoder gives sorted secquence
+
+left root right
+
+
+
+bst makes search efficient
+
+key is compared to root then if chota left subtree then right if bigger
+
+0(h)=>height of tree=height
+
+worst case scenario==skewe tree ==ek hi taraf nodes hai 
+
+tab 0(n) 
+
+most problems by recusrion dividing into subproblems
+

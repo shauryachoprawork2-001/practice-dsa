@@ -80,7 +80,7 @@ public class lca {
                 return leftLca;
             }
             if(leftLca==null){
-                return rightLca;
+                return rightLca;gi
         }
         return root;
     }
