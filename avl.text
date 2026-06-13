@@ -1,0 +1,13 @@
+whhy do we need avl ?
+they are self balancing like minimum possible height 
+worst case mai skewed tree banjata hai toh time complexity badh jti hai becuase time complexity of an
+bst is 0(height) toh jab 
+
+balancing hoti kese hai using a property known as balance factor
+
+|lh-hr|<2  toh ye satisfy hota hai toh balanced avl tree
+
+if there are n number of varibles in an array 
+n! types of bst we cn make
+
+
