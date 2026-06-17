@@ -6,7 +6,7 @@ BASISCALLY A PREFERENCE ORDER
 
 LIKE RANK WISE JESE COLLEGE KI SEATS USSI KE PASS JAYEGI JO PRIORITY QUEUE MAI UPAR HOGA
 
-JCF KESE IMPLEMENT KARTE HAI 
+JCF java collection framework hi hota hai KESE IMPLEMENT KARTE HAI 
 
 PQ KA LOGIC BANA HUA HAI
 
@@ -16,5 +16,9 @@ add()
 0(logn) time lagta hai add aur remove mai bhi 
 
 remove()
+
+
+PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());
+ if ulte order mai lagana hai 
 
 

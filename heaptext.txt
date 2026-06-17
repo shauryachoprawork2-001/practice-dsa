@@ -1,0 +1,51 @@
+ek tareeka bt max heap. min heap 
+max heap -->pq ki tarah implement karu toh mera hota hai priority max
+min heap --> priority zyada hoti hai
+
+
+properties 
+at mozt 2 children 
+
+complete binary tree
+cbt is a bt all levels are  completelyt filled except the possibly the last one which is filled from left to right
+
+heap order property
+children>=parent(min heap)
+childer<=parent(max heap)
+
+matlb like left to right beech mai missing na ho rightest most pe khali ho thabhi. chalega because bharta toh left to right hai
+
+why note in the form of nodes
+why we implement using array?
+if we want to add like a one in the heap that hai. 
+
+        2
+    3          4
+5       10
+ye structure toh like ismein abh 1 add karna hai so we know that this is like a min heap so parent node ki value child node se hogi
+har toh like jab ye normal structure hai if we use nodes ismein so we know that 
+1 dalenge toh like hoga ki  humein 1 structure hai woh fix hai usmein humein dalna hoga toh like nodes dekhenge 4 ke
+neeche wale khali tha toh waha insert hoga aur jab waha hoga insert tab hum dekhenge ki usmein hua kya hai 
+ki hum uske baad poore tree ko wapas sahi kar rhae hai acc to min heap property so isliye nhi karte ese
+so heap ko class ki form mai nhi karte
+
+so final structure should be
+       1
+    3          2
+5       10  4
+
+so how do we represent arraylist mai abh ye sawal hi but how ?
+so like whenever we represent ek left child hoga aur ek right child 
+node(idx) =i
+left child =2i+1
+right child =2i+2
+
+child ==> parent = x-1/2
+while( child cal<par val)
+
+    swap (child,par)
+
+
+
+
+
